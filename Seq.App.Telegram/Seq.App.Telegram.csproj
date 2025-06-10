@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net452</TargetFramework>
+		<Version>1.0.133</Version>
+		<AssemblyName>Seq.App.Telegram</AssemblyName>
+		<Authors>Developers of the digital department of the Eskhata Bank</Authors>
+		<Company>Digital Department of the Eskhata Bank</Company>
+		<RepositoryUrl>https://github.com/makhsudov-mz/Seq.App.EO</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="Seq.Apps" Version="3.4.17" />
+	</ItemGroup>
+
+</Project>
