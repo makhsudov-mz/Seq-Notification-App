@@ -29,3 +29,14 @@ is a registered Telegram Bot
 
 ## Commands: 
 * **GitHub Package push command** `dotnet nuget push "bin/Release/PROJECT_NAME.1.0.0.nupkg"  --api-key YOUR_GITHUB_PAT --source "github" `
+
+* **Restore command** 
+
+'
+seq show-key
+
+seq stop
+
+seq restore -k="secret-key" -b="-backup-file-name.seqbac"
+
+seq start'
