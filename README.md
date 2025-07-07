@@ -28,14 +28,16 @@ is a registered Telegram Bot
 * **Seq.AppT.elegram** for sending status logs to a telegram group via a `Bot`
 
 ## Commands: 
-* **GitHub Package push command** `dotnet nuget push "bin/Release/PROJECT_NAME.1.0.0.nupkg"  --api-key YOUR_GITHUB_PAT --source "github" `
+* **GitHub Package push command**
+
+* ***`dotnet nuget push "bin/Release/PROJECT_NAME.1.0.0.nupkg"  --api-key YOUR_GITHUB_PAT --source "github" `
 
 * **Restore command** 
 
-`seq show-key`
+* ***`seq show-key`
 
-`seq stop`
+* ***`seq stop`
 
-`seq restore -k="secret-key" -b="-backup-file-name.seqbac"`
+* ***`seq restore -k="secret-key" -b="-backup-file-name.seqbac"`
 
-`seq start`
+* ***`seq start`
