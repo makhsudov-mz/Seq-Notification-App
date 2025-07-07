@@ -32,11 +32,11 @@ is a registered Telegram Bot
 
 * **Restore command** 
 
-'
+`
 seq show-key
 
 seq stop
 
 seq restore -k="secret-key" -b="-backup-file-name.seqbac"
 
-seq start'
+seq start`
